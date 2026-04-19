@@ -1,0 +1,21 @@
+# HeartGuard Predictive Medical App
+# 
+# PROJECT OVERVIEW:
+# This project processes 13 clinical physiological inputs (such as blood pressure, 
+# cholesterol, ECG, and max heart rate) to calculate a probabilistic heart disease risk score.
+# 
+# ML PIPELINE & MODELS USED:
+# The training script automatically tests 5 advanced machine learning architectures:
+# 1. Logistic Regression
+# 2. Random Forest
+# 3. Gradient Boosting Classifier
+# 4. Support Vector Machine (SVM)
+# 5. K-Nearest Neighbors (KNN)
+# 
+# The winning model and its optimized hyperparameters are autonomously selected 
+# using GridSearchCV on cross-validated patient data.
+# 
+streamlit
+pandas
+numpy
+scikit-learn
